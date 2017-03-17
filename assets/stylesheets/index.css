@@ -2,7 +2,7 @@
     background-color: lightgrey !important;
 }
 
-.flags {
+.flag {
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -10,6 +10,10 @@
     margin-top: 20px;
     margin-bottom: 5px;
     border: 1px solid grey;
+}
+
+#flags {
+    margin-right: 20px;
 }
 
 #google-map {
