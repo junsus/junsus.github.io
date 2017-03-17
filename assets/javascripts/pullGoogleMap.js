@@ -16,13 +16,5 @@ $(function () {
 
     }
 
-    google.maps.event.addDomListener(
-        window,
-        'load',
-        function () {
-            //1000 milliseconds == 1 second,
-            //play with this til find a happy minimum delay amount
-            window.setTimeout(initialize, 1000);
-        }
-    );
+    google.maps.event.addDomListener(window, 'load', initMap);
 });
