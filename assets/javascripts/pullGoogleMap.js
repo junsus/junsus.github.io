@@ -2,7 +2,7 @@ $(function () {
 
     function initMap() {
 
-        var location = new google.maps.LatLng(59.383366, 24.934476);
+        var location = new google.maps.LatLng(59.4194687,24.8243323,15);
 
         var mapCanvas = document.getElementById('google-map');
         var mapOptions = {
