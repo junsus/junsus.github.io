@@ -14,7 +14,9 @@ $(function () {
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
+
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
+    google.maps.event.trigger(map, 'resize');
 });
